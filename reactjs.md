@@ -22,4 +22,19 @@ React JS
 
     npm start
 
-    
+    For changing the landing page output we edited the App.js in /src dir in project folder and added following line:
+
+    ```
+
+        import React from 'react';
+        import './App.css';
+        
+        function App() {
+            return ( 
+            <h1> Hello World! </h1>
+            );
+        }
+        
+        export default App;
+    ```
+
